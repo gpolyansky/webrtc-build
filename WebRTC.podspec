@@ -2,18 +2,11 @@ Pod::Spec.new do |s|
   s.name             = "WebRTC"
   s.version          = "11792.0.0"
   s.summary          = "WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications capabilities via simple APIs."
-  s.homepage         = "https://github.com/mpsnp/webrtc-build-scripts"
+  s.homepage         = "https://github.com/f0r3s1/webrtc-build"
   s.description      = <<-DESC
-    # WebRTC
 
-    This pod contains latest nightly builds of WebRTC for iOS.
-                     DESC
-
-  s.ios.platform = :ios, '7.0'
-  s.ios.deployment_target = '7.0'
-
-  s.author           = { 'George Kiriy' => 'gkiriy@smedialink.com'}
-  s.source           = { :git => "https://gitlab.com/mpsnp/WebRTC.git", :tag => '11792.0.0' }
+  s.author           = { 'Polyansky German' => 'gpolyansky@smedialink.com'}
+  s.source           = { :git => "git@github.com:f0r3s1/webrtc.git", :tag => '11792.0.0' }
 
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   s.requires_arc = true
